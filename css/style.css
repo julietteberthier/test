@@ -1,0 +1,113 @@
+/* Couleurs et polices */
+body {
+    background: rgb(230, 230, 230, 1.0);
+    color: #104B5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Anton", sans-serif;
+}
+
+h1 {
+    color: #78586F;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #5C946E;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #104B5F;
+}
+
+a:hover {
+    color: #A0C4E2;
+}
+
+.profile-picture {
+    width: 220px; /* Largeur souhaitée */
+    height: auto; /* Ajuste automatiquement la hauteur pour respecter les proportions */
+    border-radius: 50%; /* Pour une image ronde */
+}
+
+/* Design personnalisé avec les classes */
+.container {
+    width: 700px;
+    margin: 40px auto; /* Centre horizontalement */
+    padding: 20px;
+}
+
+@media (max-width: 500px) {
+    .container  {
+    width: 400px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container  {
+    width: 600px;
+    }
+}
+
+.card-white {
+    background-color: white; /* Fond blanc */
+    padding: 40px; /* Espacement intérieur */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Ombre portée subtile */
+    border: 1px solid #ddd; /* Bordure grise légère */
+    border-radius: 8px; /* Coins arrondis */
+    margin: 20px 0; /* Espacement vertical entre les sections */
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #AEC3B0;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #114559;
+    color: white;
+}
+
+/* Style des icônes */
+.list-inline {
+    list-style: none; /* Supprime les puces */
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.list-inline li {
+    display: inline-block; /* Icônes côte à côte */
+    padding: 10px; /* Espacement autour des icônes */
+}
+
+.list-inline i {
+    font-size: 50px; /* Taille des icônes */
+    color: #968997; /* Couleur des icônes */
+    transition: transform 0.3s ease, color 0.3s ease; /* Animation fluide */
+}
+
+.list-inline i:hover {
+    transform: scale(1.2); /* Agrandissement au survol */
+    color: #C3BABA; /* Changement de couleur au survol */
+}
+
+#introduction p {
+   margin-bottom: 40px;
+}
